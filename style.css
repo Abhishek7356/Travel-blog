@@ -1,0 +1,1038 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(239, 238, 238);
+}
+
+#upper-header {
+    display: flex;
+    justify-content: center;
+}
+
+#upper-header .logo {
+    height: 200px;
+    margin: 16px 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    padding: 17px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    transition: .6s;
+}
+
+.div {
+    width: 100%;
+    height: 2px;
+    opacity: 0;
+    background-color: blue;
+    transform: translate(0, 13px);
+    transition: .6s;
+
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.wrapImg {
+    width: 76%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.leftSide {
+    width: 12%;
+    display: flex;
+    height: 30vh;
+    padding: 10px;
+    position: sticky;
+    top: 250px;
+    left: 10px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contactLog {
+    display: flex;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contactName {
+    margin: 0 7px;
+    font-size: 11px;
+    padding-top: 2px;
+    opacity: 0;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.img1 {
+    width: 49.5%;
+    height: 450px;
+    margin: 2px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.img1::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    width: 49.5%;
+    height: 450px;
+    filter: brightness(0.70);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://i0.wp.com/handluggageonly.co.uk/wp-content/uploads/2023/07/Very-Best-Things-To-Do-In-Palermo-Italy-20.jpg?fit=853%2C1280&ssl=1");
+}
+
+.content {
+    font-size: 27px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.img2 {
+    width: 49.5%;
+    height: 450px;
+    margin: 2px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 0 20px;
+
+}
+
+.img2::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    width: 49.5%;
+    height: 450px;
+    background-size: cover;
+    opacity: 1;
+    filter: brightness(0.70);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://i0.wp.com/handluggageonly.co.uk/wp-content/uploads/2023/07/Very-Best-Things-To-Do-In-Portofino-Italy-2.jpg?fit=852%2C1280&ssl=1");
+}
+
+.img3 {
+    width: 32.9%;
+    height: 450px;
+    margin: 2px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 0 20px;
+
+}
+
+
+.img3::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    width: 32.9%;
+    height: 450px;
+    background-size: cover;
+    opacity: 1;
+    filter: brightness(0.70);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://i0.wp.com/handluggageonly.co.uk/wp-content/uploads/2023/07/Very-Best-Things-To-Do-In-Pisa-Italy-11.jpg?fit=853%2C1280&ssl=1")
+}
+
+.img4 {
+    width: 32.9%;
+    height: 450px;
+    margin: 2px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 0 20px;
+
+}
+
+.img4::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    width: 32.9%;
+    height: 450px;
+    background-size: cover;
+    opacity: 1;
+    filter: brightness(0.70);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://i0.wp.com/handluggageonly.co.uk/wp-content/uploads/2023/07/Very-Best-Places-In-Lake-Garda-Italy-3.jpg?fit=853%2C1280&ssl=1")
+}
+
+.img5 {
+    width: 32.9%;
+    height: 450px;
+    margin: 2px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 0 20px;
+
+}
+
+.img5::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    width: 32.9%;
+    height: 450px;
+    background-size: cover;
+    filter: brightness(0.70);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://i0.wp.com/handluggageonly.co.uk/wp-content/uploads/2023/06/Very-Best-Places-In-The-South-Of-Spain-2.jpg?fit=850%2C1280&ssl=1")
+}
+
+.img6 {
+    width: 49.5%;
+    height: 450px;
+    margin: 2px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 0 20px;
+
+}
+
+.img6::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    width: 49.5%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(0.70);
+    background-position: center;
+    background-image: url("https://i0.wp.com/handluggageonly.co.uk/wp-content/uploads/2021/02/HandLuggageOnly-6-25.jpg?fit=850%2C1280&ssl=1")
+}
+
+.img7 {
+    width: 49.5%;
+    height: 450px;
+    margin: 2px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 0 20px;
+
+}
+
+.img7::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    width: 49.5%;
+    height: 450px;
+    background-size: cover;
+    filter: brightness(0.70);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://i0.wp.com/handluggageonly.co.uk/wp-content/uploads/2023/06/Best-Things-To-Do-In-Brindisi-Italy-3.jpg?fit=914%2C1280&ssl=1")
+}
+
+.rightSide {
+    width: 12%;
+    height: 30vh;
+    position: sticky;
+    top: 350px;
+    right: 10px;
+
+}
+
+.homeSec {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.travel {
+    width: 31%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .94;
+    transition: .3s;
+
+}
+
+.travel::before {
+    content: '';
+    z-index: -1;
+    width: 31%;
+    height: 350px;
+    position: absolute;
+    background-size: cover;
+    filter: brightness(0.70);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url("https://handluggageonly.co.uk/wp-content/uploads/2016/03/IMG_2995-1.jpg")
+}
+
+.food {
+    width: 31%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .94;
+    transition: .3s;
+}
+
+.food::before {
+    content: '';
+    z-index: -1;
+    width: 31%;
+    height: 350px;
+    position: absolute;
+    background-size: cover;
+    filter: brightness(0.70);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://handluggageonly.co.uk/wp-content/uploads/2014/05/P1010828-s.jpg")
+}
+
+.photography {
+    width: 31%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .94;
+    transition: .3s;
+
+}
+
+.photography::before {
+    content: '';
+    z-index: -1;
+    width: 31%;
+    height: 350px;
+    position: absolute;
+    background-size: cover;
+    filter: brightness(0.70);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://handluggageonly.co.uk/wp-content/uploads/2016/09/IMG_5929-1.jpg")
+}
+
+.homeSecCont {
+    width: 85%;
+    height: 85%;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeSecCont p {
+    font-size: 14px;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.homeSecCont h1 {
+    font-size: 25px;
+    letter-spacing: 1px;
+
+}
+
+.homeSecCont h2 {
+    font-size: 34px;
+
+}
+
+.homeSecCont div {
+    margin-top: 10px;
+    height: 1.5px;
+    width: 20%;
+    background-color: white;
+}
+
+.destination {
+    width: 48%;
+    height: 450px;
+    margin-top: 50px;
+    opacity: .94;
+    transition: .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destination::before {
+    content: '';
+    z-index: -1;
+    width: 48%;
+    height: 450px;
+    position: absolute;
+    background-size: cover;
+    filter: brightness(0.70);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://handluggageonly.co.uk/wp-content/uploads/2016/09/IMG_1343.jpg")
+}
+
+.contact {
+    width: 48%;
+    height: 450px;
+    margin-top: 50px;
+    opacity: .94;
+    transition: .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact::before {
+    content: '';
+    z-index: -1;
+    width: 48%;
+    height: 450px;
+    position: absolute;
+    background-size: cover;
+    filter: brightness(0.70);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://handluggageonly.co.uk/wp-content/uploads/2015/11/IMG_9432.jpg")
+}
+
+.journalsCont {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.journalRightSec {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.journals {
+    display: flex;
+    justify-content: space-between;
+}
+
+.journals h4 {
+    font-size: 19px;
+    color: black;
+    margin-top: 3px;
+}
+
+.trends {
+    width: 30%;
+}
+
+.journaldetails {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.journalImg1 {
+    width: 35%;
+    height: 420px;
+}
+
+.journalImg1::before {
+    content: '';
+    z-index: -1;
+    width: 35%;
+    height: 400px;
+    position: absolute;
+    background-size: cover;
+    filter: brightness(0.80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://i0.wp.com/handluggageonly.co.uk/wp-content/uploads/2023/03/Arriving-On-Land-In-Antarctica-219.jpg?w=1600&ssl=1")
+}
+
+.journalImg2 {
+    width: 35%;
+    height: 400px;
+}
+
+.journalImg2::before {
+    content: '';
+    z-index: -1;
+    width: 35%;
+    height: 400px;
+    position: absolute;
+    background-size: cover;
+    filter: brightness(0.80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://i0.wp.com/handluggageonly.co.uk/wp-content/uploads/2023/03/Arriving-In-Antarctica-And-The-Antarctic-Circle-128.jpg?w=1600&ssl=1")
+}
+
+.journalImg3 {
+    width: 35%;
+    height: 400px;
+}
+
+.journalImg3::before {
+    content: '';
+    z-index: -1;
+    width: 35%;
+    height: 400px;
+    position: absolute;
+    background-size: cover;
+    filter: brightness(0.80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://i0.wp.com/handluggageonly.co.uk/wp-content/uploads/2023/02/Crossing-The-Drake-Passage-To-Antarctica-What-Is-It-Really-Like-173.jpg?w=1600&ssl=1")
+}
+
+.journalImg4 {
+    width: 35%;
+    height: 400px;
+}
+
+.journalImg4::before {
+    content: '';
+    z-index: -1;
+    width: 35%;
+    height: 400px;
+    position: absolute;
+    background-size: cover;
+    filter: brightness(0.80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://i0.wp.com/handluggageonly.co.uk/wp-content/uploads/2023/02/Antarctica-Travel-Trip-217.jpg?w=1600&ssl=1")
+}
+
+.journalTexts {
+    width: 40%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    align-items: center;
+}
+
+.journalTexts h1 {
+    font-size: 24px;
+}
+
+.journalTexts p {
+    font-size: 12px;
+    color: rgb(237, 177, 66);
+}
+
+.journalTexts h3 {
+    font-size: 21px;
+    line-height: 35px;
+    text-align: center;
+    color: rgb(53, 53, 53);
+}
+
+.hrLine {
+    width: 70%;
+    margin: auto;
+    height: 7px;
+    border-radius: 10px;
+    background-color: rgb(218, 216, 216);
+}
+
+.trends {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 30px;
+}
+
+.trends input {
+    width: 100%;
+    height: 45px;
+    padding: 0 15px;
+    font-size: 12px;
+    font-weight: 700;
+    outline: none;
+    border: 1px solid rgb(211, 209, 209);
+    margin-bottom: 15px;
+    transition: .3s;
+}
+
+.trends .book {
+    margin: 15px 0;
+}
+
+.travellers {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 20px 0;
+}
+
+.sMedias {
+    width: 100%;
+    display: flex;
+    padding: 15px 20px;
+    position: relative;
+
+}
+
+.mediaCont {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: white;
+}
+
+.mediaCont h3 {
+    font-size: 20px;
+}
+
+.mediaCont p {
+    font-size: 11px;
+    margin-top: 6px;
+    margin-left: 3px;
+}
+
+.foodImg {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foodImg::before {
+    content: '';
+    z-index: -1;
+    width: 100%;
+    height: 95vh;
+    position: absolute;
+    background-size: cover;
+    filter: brightness(0.90);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://i0.wp.com/handluggageonly.co.uk/wp-content/uploads/2018/05/Hand-Luggage-Only-18.jpg?w=1600&ssl=1")
+}
+
+.foodImg div {
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    transition: .3s;
+}
+
+.bottomSec {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px 0;
+}
+
+.bottomHead {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 35px;
+}
+
+.bottomcont {
+    width: 50%;
+    padding: 0 35px;
+}
+
+.bottomHead h2 {
+    font-size: 56px;
+    line-height: 61px;
+}
+
+.bottomHead p {
+    font-size: 12px;
+    color: rgb(237, 177, 66);
+}
+
+.bottomcont h2 {
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.bottomLogo {
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+}
+
+.bottomImgSec {
+    width: 100%;
+}
+
+.bottomNav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.foot {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.upArrow {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 0;
+    position: relative;
+    height: 30px;
+    overflow: hidden;
+}
+
+.upArrow i {
+    font-size: 30px;
+    color: rgb(138, 136, 136);
+}
+
+.forHover {
+    position: relative;
+    top: 0;
+    display: flex;
+    gap: 7px;
+    flex-direction: column;
+    transition: .5s;
+}
+
+
+
+
+
+
+.navbar ul li a:hover .div {
+    opacity: 1;
+    transform: translate(0, 3px);
+}
+
+.navbar ul li a:hover {
+    color: blue;
+}
+
+.contactLog:hover .contactName {
+    opacity: 1;
+}
+
+.photography:hover {
+    opacity: 1;
+}
+
+.food:hover {
+    opacity: 1;
+}
+
+.travel:hover {
+    opacity: 1;
+}
+
+.destination:hover {
+    opacity: 1;
+}
+
+.contact:hover {
+    opacity: 1;
+}
+
+.trends input:hover {
+    border: 1px solid rgb(237, 177, 66);
+}
+
+.sMedias:hover {
+    filter: brightness(1);
+}
+
+.foodImg div:hover {
+    width: 90%;
+    height: 90%;
+    border: 1px solid white;
+}
+
+.forHover:hover {
+    top: -34px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    body {
+        padding: 0 10px;
+    }
+
+    .wrapImg {
+        width: 100%;
+    }
+
+
+    .upper-header .logo {
+        height: 150px;
+    }
+
+    .img1 {
+        width: 100%;
+    }
+
+    .img1::before {
+        width: 100%;
+    }
+
+    .img2 {
+        width: 100%;
+    }
+
+    .img2::before {
+        width: 100%;
+    }
+
+    .img3 {
+        width: 100%;
+    }
+
+    .img3::before {
+        width: 100%;
+    }
+
+    .img4 {
+        width: 100%;
+    }
+
+    .img4::before {
+        width: 100%;
+    }
+
+    .img5 {
+        width: 100%;
+    }
+
+    .img5::before {
+        width: 100%;
+    }
+
+    .img6 {
+        width: 100%;
+    }
+
+    .img6::before {
+        width: 100%;
+    }
+
+    .img7 {
+        width: 100%;
+    }
+
+    .img7::before {
+        width: 100%;
+    }
+
+    .leftSide {
+        display: none;
+    }
+
+    .rightSide {
+        display: none;
+    }
+
+    .travel {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .travel::before {
+        width: 100%;
+    }
+
+    .food {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .food::before {
+        width: 100%;
+    }
+
+    .photography {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .photography::before {
+        width: 100%;
+    }
+
+    .destination {
+        width: 100%;
+        height: 400px;
+        margin-top: 20px;
+    }
+
+    .destination::before {
+        width: 100%;
+        height: 400px;
+    }
+
+    .contact {
+        width: 100%;
+        margin-top: 20px;
+        height: 400px;
+    }
+
+    .contact::before {
+        width: 100%;
+        height: 400px;
+    }
+
+    .journalRightSec {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-right: 10px;
+    }
+
+    .trends {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-left: 30px;
+    }
+
+    .journalImg1 {
+        width: 100%;
+        height: 400px;
+    }
+
+    .journalImg1::before {
+        width: 100%;
+    }
+
+    .journalImg2 {
+        width: 100%;
+        height: 400px;
+    }
+
+    .journalImg2::before {
+        width: 100%;
+        height: 400px;
+    }
+
+    .journalImg3 {
+        width: 100%;
+        height: 400px;
+    }
+
+    .journalImg3::before {
+        width: 100%;
+        height: 400px;
+    }
+
+    .journalImg4 {
+        width: 100%;
+        height: 400px;
+    }
+
+    .journalImg4::before {
+        width: 100%;
+        height: 400px;
+    }
+
+    .journalTexts {
+        width: 100%;
+        height: 400px;
+        justify-content: center;
+        padding: 0 20px;
+    }
+
+    .foodImg {
+        width: 100%;
+        height: 60vh;
+        margin-top: 40px;
+    }
+
+    .foodImg::before {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .bottomHead {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 35px;
+    }
+
+    .bottomcont {
+        width: 100%;
+        padding: 0 35px;
+    }
+    #upper-header .logo {
+        height: 100px;
+        margin: 16px 0;
+    }
+}
