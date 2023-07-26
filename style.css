@@ -836,6 +836,7 @@ header {
 
     .img1 {
         width: 100%;
+        align-items: end;
     }
 
     .img1::before {
@@ -844,6 +845,7 @@ header {
 
     .img2 {
         width: 100%;
+        align-items: end;
     }
 
     .img2::before {
@@ -852,6 +854,7 @@ header {
 
     .img3 {
         width: 100%;
+        align-items: end;
     }
 
     .img3::before {
@@ -860,6 +863,7 @@ header {
 
     .img4 {
         width: 100%;
+        align-items: end;
     }
 
     .img4::before {
@@ -868,6 +872,7 @@ header {
 
     .img5 {
         width: 100%;
+        align-items: end;
     }
 
     .img5::before {
@@ -876,6 +881,7 @@ header {
 
     .img6 {
         width: 100%;
+        align-items: end;
     }
 
     .img6::before {
@@ -884,6 +890,7 @@ header {
 
     .img7 {
         width: 100%;
+        align-items: end;
     }
 
     .img7::before {
