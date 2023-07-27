@@ -748,7 +748,6 @@ header {
 
 .upArrow i {
     font-size: 30px;
-    color: rgb(138, 136, 136);
 }
 
 .forHover {
@@ -776,6 +775,7 @@ header {
 
 .contactLog:hover .contactName {
     opacity: 1;
+    color: rgb(239, 68, 68);
 }
 
 .photography:hover {
@@ -815,6 +815,9 @@ header {
 .forHover:hover {
     top: -34px;
 }
+.forHover:hover .upArrow i {
+    color: rgb(36, 36, 37);
+}
 
 
 
@@ -837,6 +840,7 @@ header {
     .img1 {
         width: 100%;
         align-items: end;
+        margin-top: 10px;
     }
 
     .img1::before {
@@ -846,6 +850,8 @@ header {
     .img2 {
         width: 100%;
         align-items: end;
+        margin-top: 10px;
+
     }
 
     .img2::before {
@@ -855,6 +861,8 @@ header {
     .img3 {
         width: 100%;
         align-items: end;
+        margin-top: 10px;
+
     }
 
     .img3::before {
@@ -864,6 +872,8 @@ header {
     .img4 {
         width: 100%;
         align-items: end;
+        margin-top: 10px;
+
     }
 
     .img4::before {
@@ -873,6 +883,8 @@ header {
     .img5 {
         width: 100%;
         align-items: end;
+        margin-top: 10px;
+
     }
 
     .img5::before {
@@ -882,6 +894,8 @@ header {
     .img6 {
         width: 100%;
         align-items: end;
+        margin-top: 10px;
+
     }
 
     .img6::before {
@@ -891,6 +905,8 @@ header {
     .img7 {
         width: 100%;
         align-items: end;
+        margin-top: 10px;
+
     }
 
     .img7::before {
@@ -1038,6 +1054,7 @@ header {
         width: 100%;
         padding: 0 35px;
     }
+
     #upper-header .logo {
         height: 100px;
         margin: 16px 0;
